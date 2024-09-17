@@ -1,0 +1,155 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+ background-color: white;
+ color: black;
+ font-size: 16px;
+ font-family: Arial, Helvetica, sans-serif;
+ padding: 0px;
+ margin: 0px;
+ min-height: 100vh;
+
+}
+.nav {
+ background-color: black;
+ color: white;
+}
+
+.nav ul {
+ margin: 0px;
+ padding: 0px;
+ list-style-type: none;
+ font-size: 20px;
+}
+.nav ul li {
+ padding: 16px;
+ text-align: center;
+ font-size: 1.2rem;
+ border-bottom: 1px solid black;
+ transition: background-color 0.2s;
+}
+ a {
+    color: white; text-decoration: none;
+}
+
+.nav ul li:hover {
+ background-color: pink;
+}
+
+
+.image-area {
+ background-image: url('Images/george-bohunicky-qJKT2rMU0VU-unsplash.jpg');
+ background-position: center center;
+ background-size: cover;
+ padding-top: 200px;
+ padding-bottom: 200px;
+}
+.centered-container {
+ max-width: 1020px;
+ margin: 0px auto;
+ padding: 0px 16px;
+}
+.image-text {
+ text-align: center;
+ font-family: Times New Roman;
+ font-style: italic;
+ color: ivory;
+ font-size: 2.5rem;
+}
+
+
+.intro-text {
+ color: black;
+ background: beige;
+ font-size: 1.2rem;
+ text-align: center;
+ padding-top: 20px;
+ padding-bottom: 20px;
+ margin-top: 20px;
+ margin-bottom: 20px;
+}
+.single-service {
+ text-align: center;
+ margin-bottom: 32px;
+}
+.single-service p {
+ padding: 0px 0px;
+}
+
+/* .testimonials{
+    background: linear-gradient(90deg, beige 0%, lightpink 100%);
+    min-height: 100vh;
+    margin: 0 auto;
+}
+.card img{
+    max-width: 20%;
+    height:20%;
+} */
+
+
+
+
+footer {
+          background: linear-gradient(to bottom , lightpink, #000 100%);
+          padding: 60px 0px;
+          display: flex;
+          flex-direction: column;
+          align-items: center;
+          position: relative;
+        }
+
+        footer p {
+            text-transform: uppercase;
+            font-size: 14px;
+            color: rgba(255,255,255,.6);
+            margin-bottom: 10px;
+        }
+
+        footer ul {
+            margin-bottom:25px;
+            display:flex;
+            flex-direction: row;
+            list-style: none;
+
+        }
+        footer ul li {
+            margin: 0px 8px;
+        }
+        footer ul li a {
+            font-size: 36px;
+            color: white;
+            cursor:pointer;
+        }
+footer .social-media {
+    position:  sticky;
+    width: 100%;
+    top: 100%;
+}
+
+
+
+
+@media screen and (min-width: 700px) {
+ .nav ul {
+ text-align: right;
+ }
+ .nav ul li {
+ display: inline-block;
+ border-bottom: 0px;
+ border-left: 1px solid black;
+ text-align: left;
+ }
+ .single-service {
+ width: 50%;
+ float: left;
+ }
+
+ footer{
+    width: 100%;
+    padding: 80px 15px;
+            }
+
+}
